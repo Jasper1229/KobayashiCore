@@ -9,7 +9,7 @@ TOKEN_URL = 'https://osu.ppy.sh/oauth/token'
 
 def get_token():
     data = {
-        'client_id': 16870,
+        'client_id': OSU_CLIENT_ID,
         'client_secret': OSU_SECRET,
         'grant_type': 'client_credentials',
         'scope': 'public'
