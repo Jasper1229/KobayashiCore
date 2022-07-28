@@ -1,0 +1,2 @@
+OSU_SECRET = ''
+OSU_CLIENT_ID = ''
